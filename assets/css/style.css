@@ -1,7 +1,10 @@
+body {
+    margin: 0px 200px 20px 200px;
+}
+
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
-    margin: 0px 200px 20px 200px;
 }
 
 h1 {
@@ -10,14 +13,16 @@ h1 {
     padding: 20px;
     width: 250px;
     overflow: auto;
+    margin: 0 0 0 0;
 }
 
 .links {
     position: relative;
     float: right;
+    top: -50px;
     color: #777777;
     overflow: auto;
-    width: 200px;
+    width: 175px;
 }
 
 #nav1 {
@@ -43,7 +48,16 @@ h1 {
 .content {
     clear: both;
 }
+
+img {
+    height: 250px;
+    float: left;
+}
+
 p {
     color: #777777;
 }
 
+footer {
+    clear: both;
+}
