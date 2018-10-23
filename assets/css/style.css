@@ -1,0 +1,22 @@
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    margin: 0px 200px 20px 200px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    float: left;
+}
+
+
+.content {
+    clear: both;
+}
+p {
+    color: #777777;
+}
+
