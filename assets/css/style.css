@@ -1,10 +1,11 @@
 body {
-    margin: 0px 200px 20px 200px;
+    
 }
 
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
+    width: 100%;
 }
 
 h1 {
@@ -13,7 +14,8 @@ h1 {
     padding: 20px;
     width: 250px;
     overflow: auto;
-    margin: 0 0 0 0;
+    margin-left: 200px;
+    margin-bottom: 0;
 }
 
 .links {
@@ -23,6 +25,7 @@ h1 {
     color: #777777;
     overflow: auto;
     width: 175px;
+    margin-right: 250px;
 }
 
 #nav1 {
@@ -47,9 +50,11 @@ h1 {
 }
 .content {
     clear: both;
+    width: 960px;
+    margin: 0px 200px 20px 200px;
 }
 
-img {
+#profile {
     height: 250px;
     float: left;
 }
