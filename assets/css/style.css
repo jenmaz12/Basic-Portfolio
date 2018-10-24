@@ -1,11 +1,13 @@
 body {
-    
+    background-image: url("../images/circles-light.png");
+    margin: 0;
 }
 
 header {
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     width: 100%;
+    margin-top: 0;
 }
 
 h1 {
@@ -16,6 +18,7 @@ h1 {
     overflow: auto;
     margin-left: 200px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 .links {
@@ -25,7 +28,7 @@ h1 {
     color: #777777;
     overflow: auto;
     width: 175px;
-    margin-right: 250px;
+    margin-right: 275px;
 }
 
 #nav1 {
@@ -52,6 +55,9 @@ h1 {
     clear: both;
     width: 960px;
     margin: 0px 200px 20px 200px;
+    background-color: #ffffff;
+    overflow: auto;
+    padding: 20px;
 }
 
 #profile {
@@ -65,4 +71,11 @@ p {
 
 footer {
     clear: both;
+    text-align: center;
+    background-color: #666666;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
 }
