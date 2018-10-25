@@ -8,6 +8,7 @@ header {
     border-bottom: 2px solid #cccccc;
     width: 100%;
     margin-top: 0;
+    margin-right: 0;
 }
 
 h1 {
@@ -34,7 +35,7 @@ h1 {
 #nav1 {
     position: relative;
     float: left;
-    border-right: 2px solid #777777;
+    border-right: 1px solid #777777;
     padding-right: 5px;
     margin-right: 5px;
 }
@@ -42,7 +43,7 @@ h1 {
 #nav2 {
     position: relative;
     float: left;
-    border-right: 2px solid #777777;
+    border-right: 1px solid #777777;
     padding-right: 5px;
     margin-right: 5px;
 }
@@ -51,6 +52,11 @@ h1 {
     position: relative;
     float: left;
 }
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
 .content {
     clear: both;
     width: 960px;
@@ -58,10 +64,18 @@ h1 {
     background-color: #ffffff;
     overflow: auto;
     padding: 20px;
+    height: 100%;
 }
 
+h2 {
+    color: #4aaaa5;
+    border-bottom: 3px solid #dddddd;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    margin-top: 0;
+}
 #profile {
-    height: 250px;
+    height: 200px;
     float: left;
 }
 
@@ -69,13 +83,33 @@ p {
     color: #777777;
 }
 
+.project_images {
+    width: 270px;
+    height: 200px;
+    margin: 20px;
+}
+
+#Hangman {
+    float: left;
+}
+
+#Trivia {
+    clear: both;
+    float: left;
+}
+
+#Rock {
+    clear: both;
+}
+
 footer {
     clear: both;
     text-align: center;
     background-color: #666666;
-    /* position: absolute;
-    bottom: 0; */
+    position: relative;
+    bottom: 0;
     width: 100%;
     padding: 20px;
     border-top: 5px solid #4aaaa5;
+    color: #777777;
 }
