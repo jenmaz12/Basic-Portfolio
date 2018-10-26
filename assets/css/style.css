@@ -30,7 +30,7 @@ h1 {
     color: #777777;
     overflow: auto;
     width: 190px;
-    margin-right: 240px;
+    margin-right: 270px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -61,7 +61,7 @@ a {
 }
 .content {
     clear: both;
-    width: 960px;
+    width: 920px;
     margin: 0px 200px 20px 200px;
     background-color: #ffffff;
     overflow: auto;
@@ -102,30 +102,45 @@ p {
     width: 270px;
     text-align: center;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #Hangman {
     float: left;
+    height: 250px;
+    font-size: 18px;
 }
 
 #RPG {
     float: left;
+    height: 250px;
 }
 #Trivia {
   clear: both;
   float: left;
+  height: 250px;
 }
 #Rutgers {
     float: left;
+    height: 250px;
 }
 #Rock {
     clear: both;
+    height: 250px;
+    width: 310px;
+    margin-right: 0;
+}
+
+#projects {
+    margin-bottom: 20px;
 }
 
 input[name=Name] {
     width: 100%;
     margin-top: 5px;
+    font-size: 16px;
 }
 
 #Email {
@@ -133,22 +148,34 @@ input[name=Name] {
     margin-top: 5px;
 }
 
-#Message {
-    width: 100%;
-    height: 250px;
-    margin-top: 5px;
+textarea {
     resize: none;
+    border-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 920px;
+    margin-top: 5px;
     
 }
 
 .input {
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+input[type=email] {
+    font-size: 16px;
 }
 
 input[type=submit] {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #4aaaa5;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin-top: 10px;
 }
 footer {
     clear: both;
@@ -158,6 +185,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 20px;
+    margin-top: 20px;
     border-top: 8px solid #4aaaa5;
     color: white;
 }
